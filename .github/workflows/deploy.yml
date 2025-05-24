@@ -48,4 +48,4 @@ jobs:
             cd ../backend
             npm cache clean --force
             npm install
-            nohup npm run dev > backend.log 2>&1 &
+            nohup node server.js > backend.log 2>&1 &
